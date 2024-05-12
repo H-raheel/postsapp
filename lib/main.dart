@@ -21,7 +21,7 @@ class MyApp extends StatefulWidget {
   State<MyApp> createState() => _MyAppState();
 }
 
-//to ensure user stays signed In until logged out
+//to ensure user stays signed In until logged out-alternative to Shared Preferences 
 class _MyAppState extends State<MyApp> {
   User? user;
   AuthService service = new AuthService();
